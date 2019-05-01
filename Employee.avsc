@@ -1,0 +1,13 @@
+{
+     "type": "record",
+     "namespace": "com.citi",
+     "name": "Employee",
+     "version": "1",
+     "fields": [
+       { "name": "first_name", "type": "string"},
+       { "name": "last_name", "type": "string"},
+       { "name": "age", "type": "int"},
+       { "name": "empid", "type": "int"},
+       { "name": "passport", "type": "boolean", "default": false}
+     ]
+}
